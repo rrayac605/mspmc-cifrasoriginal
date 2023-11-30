@@ -1,0 +1,16 @@
+server:
+  port: 8029
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      database: test
+      port: 27017
+      host: localhost
+logging:
+  file: /tmp/logs
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    com.demo: INFO
+    org.hibernate: INFO
